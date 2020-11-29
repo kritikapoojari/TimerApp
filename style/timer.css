@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    color: #B23A48;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.container {
+    height: 300px;
+    width: 100%;
+}
+
+#display {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    color: #FCB9B2;
+}
+
+.buttons {
+    text-align: center;
+}
+
+body {
+    background-color: #461220;
+}
+
+#startStop,
+#reset {
+    font-size: 36px;
+    font-family: "Courier New", Courier, ;
+    text-align: center;
+    margin: 5px;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #EDE0D4;
+    background-color: #8C2F39;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #FED0BB;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    display: inline;
+    margin: 10px;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    color: black;
+}
+
+footer {
+    /* margin-top: 180px; */
+    text-align: center;
+    padding: 3px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-sub {
+    text-align: center;
+    /* text-decoration: none; */
+    color: white;
+}
